@@ -22,6 +22,7 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 }
 
 /* HEADER */
@@ -92,10 +93,75 @@ header {
     text-align: center;
 }
 
+/* MIDDLE */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.pic {
+    border: 2px solid #3882F6;
+    border-radius: 0.5em;
+    width: 100px;
+    height: 100px;
+}
+
+.txt {
+    margin-top: 107px;
+    text-align: center;
+}
+
 .quote-box {
+    margin-top: 10%;
+    padding: 5% 30%;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.quote-credit {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    color: #f9faf8;
+    background-color: #3882F6;
+    width: 50%;
+    border-radius: 0.5em;
+    margin: 5% 0;
+    padding: 2em 8em 0 8em;
+}
+
+.bottom-sign-up {
+    float: right;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    transform: translateY(-4em);
+}
+
+footer {
+    padding: 2% 0;
+    text-align: center;
+    color: #f9faf8;
+}
+
+footer p {
+    transform: translateY(-3em);
 }
