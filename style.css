@@ -2,6 +2,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* UNIVERSAL */
 body {
     margin: 0;
 }
@@ -11,17 +12,39 @@ footer {
     background-color: #1F2937;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 /* HEADER */
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 5% 5% 5%;
+}
+
 .navbar {
+    width: 62%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-buttons {
-    width: 15%;
-    padding: 0%;
+    width: 40%;
+    padding: 0;
     margin: 10px;
     font-size: 18px;
     color: #E5E7EB;
@@ -30,16 +53,23 @@ footer {
     justify-content: space-between;
 }
 
-head-logo {}
-
-header {
-    padding: 5%;
+.head-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    justify-content: space-evenly;
+}
+
+.hero-text {
+    width: 30%;
+    margin: 0%;
 }
 
 .sub-text {
@@ -48,13 +78,18 @@ h1 {
 }
 
 .sign-up {
+    color: #E5E7EB;
     background-color: #3882F6;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
 }
 
-h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
+.image-placeholder {
+    background-color: grey;
+    width: 30em;
+    height: 15em;
+    text-align: center;
 }
 
 .quote-box {
