@@ -2,9 +2,38 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header,
 footer {
     background-color: #1F2937;
+}
+
+/* HEADER */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-buttons {
+    width: 15%;
+    padding: 0%;
+    margin: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+head-logo {}
+
+header {
+    padding: 5%;
 }
 
 h1 {
